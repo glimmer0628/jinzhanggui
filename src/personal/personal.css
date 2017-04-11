@@ -1,0 +1,16 @@
+.gbanker-gold-price{
+	background-image: url(account_bar2.png);
+}
+.gbanker-account-frame .me-tab .block .content .asset_des .asset_button .recharge{
+	background: #fd8624;
+}
+.gbanker-account-frame .me-tab .block .content .asset_des .asset_button .postal{
+	color: #fd8624;
+	border-color: #fd8624;
+}
+.gbanker-account-frame .me-tab .block .content .asset_des .asset_totla .bottom{
+	color: #fd8624;
+}
+.gbanker-account-frame .me-tab .block .content .asset_des .asset_balance .center{
+	color: #fd8624;
+}

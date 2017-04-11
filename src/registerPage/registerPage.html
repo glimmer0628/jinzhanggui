@@ -1,0 +1,217 @@
+
+
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>金掌柜-软银中国领投，领先的互联网黄金平台</title>
+<!-- 针对360的hack启用webkit-->
+<meta name="renderer" content="webkit|ie-stand|ie-comp">
+<meta name="description"
+	content="金掌柜是软银中国领投，互联网黄金平台领导者。可便捷实现低价买金、随时买卖、存金生息、提取实物金条/金饰等功能。为普通消费者和投资者提供黄金价值管理的一站式服务。">
+<meta name="keywords" content="金掌柜官网,黄金,金价,黄金价格,实物黄金,投资金条,黄金投资">
+<meta name="baidu-site-verification" content="kj1orLZskM" />
+<link rel="shortcut icon" href="https://www.g-banker.com/web/statics/images/favicon.ico">
+<meta content="telephone=no" name="format-detection">
+<script>
+var basePath = 'https://www.g-banker.com';
+var htmlbasePath='https://www.g-banker.com/web/html';
+var imgUrl = 'https://www.g-banker.com/web/statics/images';
+</script>
+<!--[if lt IE 9]>
+<script src="https://www.g-banker.com/web/statics/scripts/common/html5shiv.min.js"></script>
+<script src="https://www.g-banker.com/web/statics/scripts/common/es5-shim.min.js"></script>
+<script src="https://www.g-banker.com/web/statics/scripts/common/json3.min.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="register.css">
+<script src="../../static/js/jquery-2.1.1.js"></script>
+<script src="register.js"></script>
+</head>
+<body>
+	
+<div class="gbanker-ceil">
+   <div class="light-ceil">
+     <div class="row">
+      <p class="server-tel">
+                      客服热线：<span class="number">4000-339-993</span>
+         <a href="javascript:void(0);" class="icon-weixin"></a>
+         <span class="ceil-weixin"></span>
+         <a href="#" class="icon-weibo" target="_blank"></a>
+      </p>
+      <div class="login-infor">
+	      <div class="_user" id="ceilUnlogin">
+	      	<p class="_name">您好，欢迎来到金掌柜</p>
+	        <p><a class="_login" target="_self" href="../loginPage/loginPage.html">登录</a><a class="_reg" target="_self" href="registerPage.html">注册</a><a class="_nav_recharge J-nav-recharge"  href="../loginPage/loginPage.html">充值</a></p>
+	      </div>
+	      <!--<div class="_user" id="ceilLogin">
+	      	<p class="_name"><span id="celTelephone"></span>，欢迎来到金掌柜</p>
+	      	<p><a class="_account" target="_self" href="https://www.g-banker.com/web/html/account/me.html"><span></span>我的账户</a><a class="nav_recharge J-nav-recharge"  href="https://www.g-banker.com/web/html/account/charge.html">充值</a><a class="_exit" id="J_logout" href="https://www.g-banker.com/user/logout">退出</a></p>
+	      </div>-->
+	       <a class="_download" id="J_ceilshowqrcode">
+	        <span></span>下载手机客户端
+	      </a>
+	       <!--二维码-->
+	       <img class="newqrcode1 " id="J-qrcode1" src='' />
+      </div>
+     </div>
+   </div>
+</div>
+	<div class=" gbanker-navbar register">
+	<div class="row">
+		<div class="unit links">
+			<h1 class="logo">
+				<a href="#" target="_self" title="金掌柜"></a>
+			</h1>
+		</div>
+		<div class="register_title">
+			<div class="register_bar"></div>
+			<div class="register_rg">
+				<p>注册</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+ <div class="bg_reg">
+	<div class="row row1 gbanker-reg gbanker-reg-step-1">
+		<form class="frame">
+			<fieldset>
+				<div class="content">
+					<div class="reg_title">
+						<div>欢迎注册金掌柜</div>
+					</div>
+					
+
+					
+
+					<div class="reg_content reg_content2" style="padding-top: 0px;">
+						<div class="reg_input">
+							<div class="infor_input">
+								<label class="infor_label">手机号</label> <input
+									class="infor_input_in" type="text" id="telInput"
+									name="telephone" placeholder="请输入手机号" /> <i class="warn_icons"
+									id="telIcon"></i>
+							</div>
+							<div class="warn_text warn_tel">
+								<span class="warn_border"> 请输入正确手机号 </span>
+							</div>
+							
+							<div class="infor_input">
+								<label class="infor_label">密码</label> <input
+									class="infor_input_in" type="password" id="passwordInput"
+									name="telephone" placeholder="请设置6-32位密码"  /> 
+									<i class="warn_icons warn" id="pswIcon"></i>
+							</div>
+							<div class="warn_text warn_pwd" id="J_password_err">
+								<span class="warn_border"> 请输入正确密码格式 </span>
+							</div>
+							<div class="infor_input">
+								<label class="infor_label">确认密码</label> <input
+									class="infor_input_in" type="password" id="repeatPassword"
+									name="telephone" placeholder="请再次输入密码" /> <i
+									class="warn_icons warn" id="confarmIcon"></i>
+							</div>
+							<div class="warn_text warn_confirm" id="pwdtips2">
+								<span class="warn_border"> 两次密码不一致 </span>
+							</div>
+						</div>                        
+						
+						<div class="action">
+							<button type="button" id="submitButton">马上注册</button>
+						</div>
+
+						<div class="to_denglu">
+							已有账号，<a href="../loginPage/loginPage.html" target="_blank">马上登录</a>
+						</div>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</div>
+	<div class="gbanker-footer">
+  <div class="footer-about-us row">
+  
+   <div class="footer-bar">
+     <p class="p1"><a href="#">关于我们</a><a href="#">安全保障</a></p>
+     <p><a href="#">钱包优势</a><a href="#">加入我们</a></p>
+   </div>
+   <div class="footer-tel-us">
+     <p>
+       <span>关注我们：</span>
+       <a class="footer_wx" href="javascript:void(0);"></a> 
+       <a class="footer_wb" href="javascript:void(0);" id="kx_verify" target="_blank"></a></p>
+       <div class="ceil-weixin-bottom"></div>
+     <p><span>客服邮箱：</span><span class="number">service@g-banker.com</span></p>
+   </div>
+   <div class="footer-telphone">
+     <p class="number">4000-339-993</p>    
+     <p>(工作日 9:00-21:00   非工作日 10:00-15:00)</p>
+   </div>
+  </div>
+  
+  <div style="background-color: #fafafa">
+	<div class="pagebottom row">
+		<ul>
+			<li class="verify1"><a
+					href="https://ss.knet.cn/verifyseal.dll?sn=e14112711010856466vg26000000&ct=df&a=1&pa=0.7663032277487218"
+					target="_blank"></a></li>
+			<li class="verify2"><a
+					href="https://sealinfo.verisign.com/splash?form_file=fdf/splash.fdf&dn=www.g-banker.com&lang=zh_cn"
+					target="_blank"></a></li>
+		</ul>
+
+		<div class="copyright">
+			<a class="fico"></a>
+			<div>金掌柜与世界最大的信用评分机构美国FICO(费埃哲)联合开发黄金出借评分决策云平台</div>
+			<p >
+				<a  target="_blank"  href="javascript:void(0);" class="icp_certificate">
+					京ICP证160991号
+				</a>&nbsp;&nbsp;&nbsp;Copyright ©2016 G-banker.com, All Rights Reserved</p>
+ 		</div>
+	</div>
+ </div>
+</div>
+<div class="footer-append">
+   <div class="row home-address">
+      <ul class="clearfix">
+         <li class="first">北京盈衍网络科技有限公司 京ICP备14027891号-1</li>
+         <li class="sec">电话：010-59493461</li>
+         <li class="sec">邮编：100102</li>
+        <li class="sec">地址：北京市朝阳区望京浦项中心B座17层6~8室</li>
+      </ul>
+    </div>
+</div>
+
+
+ <!--输入为空的验证-->     
+
+<script>
+	$(document).ready(function() {
+		$('#submitButton').click(function() {
+			
+			if($("#passwordInput").html()==' '){
+				$('.warn_pwd').css('display','block');
+				$('.warn_border').html('请输入密码');
+				
+			}else if(($('.warn_tel').css('display')=='none')&&($('.warn_pwd').css('display')=='none')&&($('.warn_confirm').css('display')=='none')){
+				
+				localStorage.user=$('.infor_input_in').val();
+				localStorage.pwd=$('#passwordInput').val();
+				
+				window.location.href='../personal/personal.html';
+			}
+		});
+		
+	});
+</script>
+
+</body>
+</html>
